@@ -1,0 +1,51 @@
+.header__title{
+    background: #4E5166;
+    color: #ffffff;
+}
+.header__background{
+    background: #B5AA9D;
+    border-radius: 10%;
+}
+.article__category{
+    background: #B5AA9D;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.section__image{
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 50%;
+
+
+}
+.section__subtitle{
+    background: #747274;
+}
+.footer{
+    background: #B5AA9D;
+}
+
+.article__subtitle{
+    background: #747274;
+}
+.main__background{
+    background: #B9B7A7;
+}
+.article__description{
+
+}
+.header__link{
+    color: #ffffff;
+}
+.section__link{
+    color: #ffffff;
+}
+.footer__link{
+    color:#ffffff;
+}
+.box{
+    box-sizing: border-box;
+    padding: 5% 20%;    
+}
+
