@@ -9,7 +9,7 @@
 </head>
 
 
-<body class=>
+<body>
     <div class="body__box">
         <header class="header__background fixed">
             <nav>
@@ -36,7 +36,7 @@
                 </section>
                 <section id="notatki">
                     <article class="article__category">
-                        <h2 class="article__subtitle"></h2> <i>Notatki z WTF: CO TEN FRONTEND.</i></h2>
+                        <h2 class="article__subtitle"><i>Notatki z WTF: CO TEN FRONTEND.</i></h2>
 
                         <h3 class="article__subtitle sticky">Tydzień I</h3>
 
@@ -71,59 +71,49 @@
                         <h3 class="article__subtitle sticky">Tydzień II</h3>
                         <span></span>
                         <h4 class="article__subtitle">Warstwy:</h4>
-                        <p>
-                            <ul class="article__description">
-                                <li>warstwa 0: treść</li>
-                                <li>warstwa 1: semantyka html - HTML wpływa na treść (nadaje sens)</li>
-                                <li>warstwa 2: prezentacja css - CSS wpływa na wygląd HTML </li>
-                                <li>warstwa 3: interakcja javascript - może modyfikować wszystko + np. pobieranie danych
-                                </li>
-                            </ul>
-                        </p>
+                        <ul class="article__description">
+                            <li>warstwa 0: treść</li>
+                            <li>warstwa 1: semantyka html - HTML wpływa na treść (nadaje sens)</li>
+                            <li>warstwa 2: prezentacja css - CSS wpływa na wygląd HTML </li>
+                            <li>warstwa 3: interakcja javascript - może modyfikować wszystko + np. pobieranie danych
+                            </li>
+                        </ul>
                         <h4 class="article__subtitle">Ważne części budowania strony:</h4>
-                        <p>
-                            <ul class="article__description">
-                                <li>&ltmain> główna część dokumentu</li>
-                                <li>&ltsection> sekcje dokumentu</li>
-                                <li>&ltarticle> samodzielne treści</li>
-                                <li>&ltheader> nagłówek dokumentu/sekcji/artykułu</li>
-                                <li>&ltfooter> stopka dokumentu/sekcji…</li>
-                                <li>&lth1-h6> tekstowe nagłówki tytułowe dokumenty/sekcji…</li>
-                                <li>&ltp> paragraf/akapit</li>
-                            </ul>
-                        </p>
+                        <ul class="article__description">
+                            <li>&lt;main> główna część dokumentu</li>
+                            <li>&lt;section> sekcje dokumentu</li>
+                            <li>&lt;article> samodzielne treści</li>
+                            <li>&lt;header> nagłówek dokumentu/sekcji/artykułu</li>
+                            <li>&lt;footer> stopka dokumentu/sekcji…</li>
+                            <li>&lt;h1-h6> tekstowe nagłówki tytułowe dokumenty/sekcji…</li>
+                            <li>&lt;p> paragraf/akapit</li>
+                        </ul>
                         <h4 class="article__subtitle">Podsumowanie:</h4>
-                        <p>
-                            <ul class="article__description">
-                                <li>atrybuty są “niewidzialne” - chowamy je w znaczniku</li>
-                                <li>nadają elementom dodatkowe właściwości (href, src)</li>
-                                <li>pozwalają na grupowanie elementów (class)</li>
-                                <li>pozwalają na identyfikowanie elementów (id)</li>
-                                <li>można je miksować</li>
-                            </ul>
-                        </p>
+                        <ul class="article__description">
+                            <li>atrybuty są “niewidzialne” - chowamy je w znaczniku</li>
+                            <li>nadają elementom dodatkowe właściwości (href, src)</li>
+                            <li>pozwalają na grupowanie elementów (class)</li>
+                            <li>pozwalają na identyfikowanie elementów (id)</li>
+                            <li>można je miksować</li>
+                        </ul>
                         <h4 class="article__subtitle">Nazywanie rzeczy:</h4>
-                        <p>
-                            <ul class="article__description">
-                                <li>nazwy zapisujemy bez polskich znaków</li>
-                                <li>nie używamy spacji</li>
-                                <li>najlepiej używać angielskich słów (treść oczywiście może być w innym języku)</li>
-                                <li>trzymamy się jednego schematu (konsekwencja jest istotna)</li>
-                            </ul>
-                        </p>
+                        <ul class="article__description">
+                            <li>nazwy zapisujemy bez polskich znaków</li>
+                            <li>nie używamy spacji</li>
+                            <li>najlepiej używać angielskich słów (treść oczywiście może być w innym języku)</li>
+                            <li>trzymamy się jednego schematu (konsekwencja jest istotna)</li>
+                        </ul>
                         <h4 class="article__subtitle">Konwencje nazewnictwa:</h4>
-                        <p>
-                            <ul class="article__description">
-                                <li>konwencja camelCase</li>
-                                mySuperBoldHeader
-                                <li>konwencja Kebab-case</li>
-                                my-super-bold-header
-                                <li>konwencja snake_case</li>
-                                my_super_bold_header
-                                <li>konwencja PascalCase</li>
-                                MySuperBoldHeader
-                            </ul>
-                        </p>
+                        <ul class="article__description">
+                            <li>konwencja camelCase
+                                mySuperBoldHeader</li>
+                            <li>konwencja Kebab-case
+                                my-super-bold-header</li>
+                            <li>konwencja snake_case
+                                my_super_bold_header</li>
+                            <li>konwencja PascalCase
+                                MySuperBoldHeader</li>
+                        </ul>
                     </article>
                     <article class="article__category">
                         <h3 class="article__subtitle sticky">Tydzień III</h3>
@@ -131,24 +121,22 @@
                         <h4 class="article__subtitle">HTML II</h4>
                         <p>Budowanie strony cd:</p>
                         <ul class="article__description">
-                            <li>&ltbr> nowa linia (dodajemy na końcu)</li>
-                            <li>&ltb> vs &ltstrong> vs &lti> vs &ltem> Elementy do wyróżniania teksu</li>
-                            Są bez znaczenia semantycznego<br>
-                            <li>&ltb> pogrubienie</li>
-                            <li>&lti> kursywa</li>
-                            <li>&ltstrong> Podkreśla wysoką istotność i poważność frazy w niej zawartej.</li>
-                            <li>&ltem> Podkreśla, że tekst może mieć inne znaczenie (np. ironia)</li>
+                            <li>&lt;br> nowa linia (dodajemy na końcu)</li>
+                            <li>&lt;b> vs &lt;strong> vs &lt;i> vs &lt;em> Elementy do wyróżniania teksu<br>
+                                Są bez znaczenia semantycznego</li>
+                            <li>&lt;b> pogrubienie</li>
+                            <li>&lt;i> kursywa</li>
+                            <li>&lt;strong> Podkreśla wysoką istotność i poważność frazy w niej zawartej.</li>
+                            <li>&lt;em> Podkreśla, że tekst może mieć inne znaczenie (np. ironia)</li>
                         </ul>
-                        <p>
-                            <ul class="article__description">
-                                <li>&lta href=””target=””> opis łącza < / a>
-                                </li>
-                                <li>a - linki/ łącza wewnętrzne dokumentu i linki np googla (czyli zewnętrznie) </li>
-                                <li> atrybut id - identyfikator, element przydaje się do nawigacji w obrębie dokumentu
-                                </li>
-                                <li> &ltnav> nawigacja</li>
-                            </ul>
-                        </p>
+                        <ul class="article__description">
+                            <li>&lt;a href=””target=””> opis łącza &lt;/a>
+                            </li>
+                            <li>a - linki/ łącza wewnętrzne dokumentu i linki np googla (czyli zewnętrznie) </li>
+                            <li> atrybut id - identyfikator, element przydaje się do nawigacji w obrębie dokumentu
+                            </li>
+                            <li> &lt;nav> nawigacja</li>
+                        </ul>
                         <h4 class="article__subtitle">Nazywanie rzeczy:</h4>
                         <ul class="article__description">
                             <li>nazwy zapisujemy bez polskich znaków,</li>
@@ -231,13 +219,14 @@
                     </article>
                 </section>
             </div>
+        </main>
     </div>
     <footer class="footer">
         strona Adriany Capińskiej postała w celach edukacyjnych do jej własnego użytku.
         <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
     <script src=main.js></script>
-    </main>
+
 
 </body>
 
