@@ -9,228 +9,234 @@
 </head>
 
 
-<body>
-    <header class="header__background">
-        <nav>
-            <a class="header__link" href="index.html">strona główna</a>
-            <a class="header__link" href="tydzien1-html.html">tydzień I</a>
-            <a class="header__link" href="tydzien2-html.html">tydzień II</a>
-            <a class="header__link" href="tydzien3-html.html">tydzień III</a>
-        </nav>
-    </header>
-    <main class="main__background box">
-        <header id="top" class="header__top">
-            <h1 class="header__title">Adriana - Strona domowa</h1>
-            <p class="article__description">Mój dziennik</p>
+<body class=>
+    <div class="body__box">
+        <header class="header__background fixed">
+            <nav>
+                <a class="header__link" href="index.html">strona główna</a>
+                <a class="header__link" href="tydzien1-html.html">tydzień I</a>
+                <a class="header__link" href="tydzien2-html.html">tydzień II</a>
+                <a class="header__link" href="tydzien3-html.html">tydzień III</a>
+            </nav>
         </header>
-        <div class="background__all">
-            <section>
-                <h2 class="section__subtitle">Kim jestem?</h2>
-                <img class="section__image" src="AC.jpg" alt="uśmiechnięta Ada"><br>
-                Laikiem odnośnie programowania, poza tym fizjoterapeutą, który się trochę wypalił i szuka pomysłu na
-                siebie…<br>
-                Zapisałam się na kurs <a class="section__link" href="https://cotenfrontend.pl">WTF</a> <br>
-                Zobaczymy co to będzie:) <br>
-                <a class="section__link" href="#notatki">Przejdź do notatek</a>
-            </section>
-            <section id="notatki">
-                <article class="article__category">
-                    <h2 class="article__subtitle"></h2> <i>Notatki z WTF: CO TEN FRONTEND.</i></h2>
+        <main class="main__background box">
+            <header id="top" class="header__top">
+                <h1 class="header__title">Adriana - Strona domowa</h1>
+                <p class="article__description">Mój dziennik</p>
+            </header>
+            <div class="background__all">
+                <section>
+                    <h2 class="section__subtitle">Kim jestem?</h2>
+                    <img class="section__image" src="AC.jpg" alt="uśmiechnięta Ada"><br>
+                    Laikiem odnośnie programowania, poza tym fizjoterapeutą, który się trochę wypalił i szuka pomysłu na
+                    siebie…<br>
+                    Zapisałam się na kurs <a class="section__link" href="https://cotenfrontend.pl">WTF</a> <br>
+                    Zobaczymy co to będzie:) <br>
+                    <a class="section__link" href="#notatki">Przejdź do notatek</a>
+                </section>
+                <section id="notatki">
+                    <article class="article__category">
+                        <h2 class="article__subtitle"></h2> <i>Notatki z WTF: CO TEN FRONTEND.</i></h2>
 
-                    <h3 class="article__subtitle">Tydzień I</h3>
-                    <p class="article__description">
-                        TML: Hypertext Markup Language<br>
-                        Odpowiada za treść strony - jej właściwe opakowanie.<br>
-                        Treści to:<br>
-                        nagłówki, linki, listy, definicje,obrazki, video, formularze <br>
-                        oraz wszystko co jest nośnikiem informacji<br>
+                        <h3 class="article__subtitle sticky">Tydzień I</h3>
 
-                        CSS: Cascading style sheets (Kaskadowe arkusze stylów)<br>
-                        Odpowiada za prezentacje i wygląd...
+                        HTML: Hypertext Markup Language<br>
+                        <p class="article__description">Odpowiada za treść strony - jej właściwe opakowanie.<br>
+                            Treści to:<br>
+                            nagłówki, linki, listy, definicje,obrazki, video, formularze <br>
+                            oraz wszystko co jest nośnikiem informacji<br>
 
-                        JAVASCRIPT:<br>
-                    </p>
-                    <h3 class="article__subtitle">Narzędzia i grupy:</h3>
-                    <ul class="article__description">
-                        <li>google chrome</li>
-                        <li>Visual Studio Code</li>
-                        <li>slack</li>
-                        <li>grupa na FB</li>
-                    </ul>
+                            CSS: Cascading style sheets (Kaskadowe arkusze stylów)<br>
+                            Odpowiada za prezentacje i wygląd...<br>
 
-                    <h3 class="article__subtitle">Ścieżka rozwoju:</h3>
-                    <ul class="article__description">
-                        <li>stażysta/junior</li>
-                        <li>mid</li>
-                        <li>senior</li>
-                        <li>expert/ninja/wizard xD</li>
-                    </ul>
-                </article>
-                <article class="article__category">
-                    <h3 class="article__subtitle">Tydzień II</h3>
-                    <span></span>
-                    <h4 class="article__subtitle">Warstwy:</h4>
-                    <p>
+                            JAVASCRIPT:<br>
+                        </p>
+                        <h3 class="article__subtitle">Narzędzia i grupy:</h3>
                         <ul class="article__description">
-                            <li>warstwa 0: treść</li>
-                            <li>warstwa 1: semantyka html - HTML wpływa na treść (nadaje sens)</li>
-                            <li>warstwa 2: prezentacja css - CSS wpływa na wygląd HTML </li>
-                            <li>warstwa 3: interakcja javascript - może modyfikować wszystko + np. pobieranie danych
-                            </li>
+                            <li>google chrome</li>
+                            <li>Visual Studio Code</li>
+                            <li>slack</li>
+                            <li>grupa na FB</li>
                         </ul>
-                    </p>
-                    <h4 class="article__subtitle">Ważne części budowania strony:</h4>
-                    <p>
+
+                        <h3 class="article__subtitle">Ścieżka rozwoju:</h3>
                         <ul class="article__description">
-                            <li>&ltmain> główna część dokumentu</li>
-                            <li>&ltsection> sekcje dokumentu</li>
-                            <li>&ltarticle> samodzielne treści</li>
-                            <li>&ltheader> nagłówek dokumentu/sekcji/artykułu</li>
-                            <li>&ltfooter> stopka dokumentu/sekcji…</li>
-                            <li>&lth1-h6> tekstowe nagłówki tytułowe dokumenty/sekcji…</li>
-                            <li>&ltp> paragraf/akapit</li>
+                            <li>stażysta/junior</li>
+                            <li>mid</li>
+                            <li>senior</li>
+                            <li>expert/ninja/wizard xD</li>
                         </ul>
-                    </p>
-                    <h4 class="article__subtitle">Podsumowanie:</h4>
-                    <p>
+                    </article>
+                    <article class="article__category">
+                        <h3 class="article__subtitle sticky">Tydzień II</h3>
+                        <span></span>
+                        <h4 class="article__subtitle">Warstwy:</h4>
+                        <p>
+                            <ul class="article__description">
+                                <li>warstwa 0: treść</li>
+                                <li>warstwa 1: semantyka html - HTML wpływa na treść (nadaje sens)</li>
+                                <li>warstwa 2: prezentacja css - CSS wpływa na wygląd HTML </li>
+                                <li>warstwa 3: interakcja javascript - może modyfikować wszystko + np. pobieranie danych
+                                </li>
+                            </ul>
+                        </p>
+                        <h4 class="article__subtitle">Ważne części budowania strony:</h4>
+                        <p>
+                            <ul class="article__description">
+                                <li>&ltmain> główna część dokumentu</li>
+                                <li>&ltsection> sekcje dokumentu</li>
+                                <li>&ltarticle> samodzielne treści</li>
+                                <li>&ltheader> nagłówek dokumentu/sekcji/artykułu</li>
+                                <li>&ltfooter> stopka dokumentu/sekcji…</li>
+                                <li>&lth1-h6> tekstowe nagłówki tytułowe dokumenty/sekcji…</li>
+                                <li>&ltp> paragraf/akapit</li>
+                            </ul>
+                        </p>
+                        <h4 class="article__subtitle">Podsumowanie:</h4>
+                        <p>
+                            <ul class="article__description">
+                                <li>atrybuty są “niewidzialne” - chowamy je w znaczniku</li>
+                                <li>nadają elementom dodatkowe właściwości (href, src)</li>
+                                <li>pozwalają na grupowanie elementów (class)</li>
+                                <li>pozwalają na identyfikowanie elementów (id)</li>
+                                <li>można je miksować</li>
+                            </ul>
+                        </p>
+                        <h4 class="article__subtitle">Nazywanie rzeczy:</h4>
+                        <p>
+                            <ul class="article__description">
+                                <li>nazwy zapisujemy bez polskich znaków</li>
+                                <li>nie używamy spacji</li>
+                                <li>najlepiej używać angielskich słów (treść oczywiście może być w innym języku)</li>
+                                <li>trzymamy się jednego schematu (konsekwencja jest istotna)</li>
+                            </ul>
+                        </p>
+                        <h4 class="article__subtitle">Konwencje nazewnictwa:</h4>
+                        <p>
+                            <ul class="article__description">
+                                <li>konwencja camelCase</li>
+                                mySuperBoldHeader
+                                <li>konwencja Kebab-case</li>
+                                my-super-bold-header
+                                <li>konwencja snake_case</li>
+                                my_super_bold_header
+                                <li>konwencja PascalCase</li>
+                                MySuperBoldHeader
+                            </ul>
+                        </p>
+                    </article>
+                    <article class="article__category">
+                        <h3 class="article__subtitle sticky">Tydzień III</h3>
+                        <span></span>
+                        <h4 class="article__subtitle">HTML II</h4>
+                        <p>Budowanie strony cd:</p>
                         <ul class="article__description">
-                            <li>atrybuty są “niewidzialne” - chowamy je w znaczniku</li>
-                            <li>nadają elementom dodatkowe właściwości (href, src)</li>
-                            <li>pozwalają na grupowanie elementów (class)</li>
-                            <li>pozwalają na identyfikowanie elementów (id)</li>
-                            <li>można je miksować</li>
+                            <li>&ltbr> nowa linia (dodajemy na końcu)</li>
+                            <li>&ltb> vs &ltstrong> vs &lti> vs &ltem> Elementy do wyróżniania teksu</li>
+                            Są bez znaczenia semantycznego<br>
+                            <li>&ltb> pogrubienie</li>
+                            <li>&lti> kursywa</li>
+                            <li>&ltstrong> Podkreśla wysoką istotność i poważność frazy w niej zawartej.</li>
+                            <li>&ltem> Podkreśla, że tekst może mieć inne znaczenie (np. ironia)</li>
                         </ul>
-                    </p>
-                    <h4 class="article__subtitle">Nazywanie rzeczy:</h4>
-                    <p>
+                        <p>
+                            <ul class="article__description">
+                                <li>&lta href=””target=””> opis łącza < / a>
+                                </li>
+                                <li>a - linki/ łącza wewnętrzne dokumentu i linki np googla (czyli zewnętrznie) </li>
+                                <li> atrybut id - identyfikator, element przydaje się do nawigacji w obrębie dokumentu
+                                </li>
+                                <li> &ltnav> nawigacja</li>
+                            </ul>
+                        </p>
+                        <h4 class="article__subtitle">Nazywanie rzeczy:</h4>
                         <ul class="article__description">
-                            <li>nazwy zapisujemy bez polskich znaków</li>
-                            <li>nie używamy spacji</li>
-                            <li>najlepiej używać angielskich słów (treść oczywiście może być w innym języku)</li>
-                            <li>trzymamy się jednego schematu (konsekwencja jest istotna)</li>
+                            <li>nazwy zapisujemy bez polskich znaków,</li>
+                            <li>nie używamy spacji,</li>
+                            <li>najlepiej używać angielskich słów, treści mogą być w innym języku np, polskim,</li>
+                            <li>trzymamy się jednego schematu, konwencje są istotne.</li>
                         </ul>
-                    </p>
-                    <h4 class="article__subtitle">Konwencje nazewnictwa:</h4>
-                    <p>
+                        <h4 class="article__subtitle">CSS II</h4>
+                        <p class="article__description">styl inline: styl przy znaczniku z wykorzystaniem atrybutu
+                            style<br>
+                            Prawdziwe selektory:</p>
                         <ul class="article__description">
-                            <li>konwencja camelCase</li>
-                            mySuperBoldHeader
-                            <li>konwencja Kebab-case</li>
-                            my-super-bold-header
-                            <li>konwencja snake_case</li>
-                            my_super_bold_header
-                            <li>konwencja PascalCase</li>
-                            MySuperBoldHeader
+                            <li># id - # jest selektorem id</li>
+                            <li>.class - kropka jest selektorem klasy</li>
+                            <li>element</li>
                         </ul>
-                    </p>
-                </article>
-                <article class="article__category">
-                    <h3 class="article__subtitle">Tydzień III</h3>
-                    <span></span>
-                    <h4 class="article__subtitle">HTML II</h4>
-                    <p>Budowanie strony cd:</p>
-                    <ul class="article__description">
-                        <li>&ltbr> nowa linia (dodajemy na końcu)</li>
-                        <li>&ltb> vs &ltstrong> vs &lti> vs &ltem> Elementy do wyróżniania teksu</li>
-                        Są bez znaczenia semantycznego<br>
-                        <li>&ltb> pogrubienie</li>
-                        <li>&lti> kursywa</li>
-                        <li>&ltstrong> Podkreśla wysoką istotność i poważność frazy w niej zawartej.</li>
-                        <li>&ltem> Podkreśla, że tekst może mieć inne znaczenie (np. ironia)</li>
-                    </ul>
-                    <p>
+                        <p class="article__description">!important- jest deklaracją, która nadaje cechę important, która
+                            zabija wszystkie reguły,
+                            nadpisuje
+                            je i ignoruje (ZMORA W CSS!)</p>
+                        <h4 class="article__subtitle">Nazewnictwo class:</h4>
                         <ul class="article__description">
-                            <li>&lta href=””target=””> opis łącza < / a></li>
-                            <li>a - linki/ łącza wewnętrzne dokumentu i linki np googla (czyli zewnętrznie) </li>
-                            <li> atrybut id - identyfikator, element przydaje się do nawigacji w obrębie dokumentu</li>
-                            <li> &ltnav> nawigacja</li>
+                            <li>nie używaj pojedynczych klas z języka angielskiego</li>
+                            <li>nazywaj rzeczy zgodnie z ich funkcją na stronie</li>
+                            <li>startuj z małej litery</li>
+                            <li>nie zaczynaj od cyfry</li>
+                            <li>jeśli musisz użyć dwóch słów użyj tzn. kebab-case np. news-listing</li>
+                            <li>staraj się aby element miał jedną klasę (niezwiększaj specyficzności bez potrzeby)</li>
                         </ul>
-                    </p>
-                    <h4 class="article__subtitle">Nazywanie rzeczy:</h4>
-                    <ul class="article__description">
-                        <li>nazwy zapisujemy bez polskich znaków,</li>
-                        <li>nie używamy spacji,</li>
-                        <li>najlepiej używać angielskich słów, treści mogą być w innym języku np, polskim,</li>
-                        <li>trzymamy się jednego schematu, konwencje są istotne.</li>
-                    </ul>
-                    <h4 class="article__subtitle">CSS II</h4>
-                    <p class="article__description">styl inline: styl przy znaczniku z wykorzystaniem atrybutu style<br>
-                        Prawdziwe selektory:</p>
-                    <ul class="article__description">
-                        <li># id - # jest selektorem id</li>
-                        <li>.class - kropka jest selektorem klasy</li>
-                        <li>element</li>
-                    </ul>
-                    <p class="article__description">!important- jest deklaracją, która nadaje cechę important, która
-                        zabija wszystkie reguły,
-                        nadpisuje
-                        je i ignoruje (ZMORA W CSS!)</p>
-                    <h4 class="article__subtitle">Nazewnictwo class:</h4>
-                    <ul class="article__description">
-                        <li>nie używaj pojedynczych klas z języka angielskiego</li>
-                        <li>nazywaj rzeczy zgodnie z ich funkcją na stronie</li>
-                        <li>startuj z małej litery</li>
-                        <li>nie zaczynaj od cyfry</li>
-                        <li>jeśli musisz użyć dwóch słów użyj tzn. kebab-case np. news-listing</li>
-                        <li>staraj się aby element miał jedną klasę (niezwiększaj specyficzności bez potrzeby)</li>
-                    </ul>
-                    <h4 class="article__subtitle">Podsumowanie:</h4>
-                    <ul class="article__description">
-                        <li>html class= “name”=css.name</li>
-                        <li>html id=”name”=css#name</li>
-                        <li>stylujemy po klasach(bez zagnieżdżeń)</li>
-                        <li>nazywamy klasy po angielsku, zgodnie z przeznaczeniem</li>
-                        <li> tworzymy klasy nawet jeśli mamy jeden element danego typu</li>
-                        <li> specyficzność może dać popalić</li>
-                        <li> nie używamy !important i stylów inline’owych</li>
-                    </ul>
-                    <h4 class="article__subtitle">JAVA SCRIPT</h4>
-                    <p class="article__description">Odpowiada za interakcje, składa się z:
-                    </p>
-                    <div class="container">wartości </div>
-                    <div class="container">operacje</div>
-                    <div class="container">porównania </div>
-                    <div class="container">literały </div>
-                    <div class="container">zmienne</div>
-                    <div class="container">obiekty </div>
-                    <div class="container">funkcje </div>
-                    <p class="article__description"> <b> Wartości dla JS są tym samym czym liczby dla matematyki.</b>
-                    </p>
-                    <h4 class="article__subtitle">Terminal:</h4>
-                    <ul class="article__description">
-                        <li>cd/d - wejście na dysk d</li>
-                        <li>cd - przejście do katalogu domowego</li>
-                        <li>ls - wypisanie zawartości katalogu</li>
-                        <li> ls -a - wypisanie zawartości katalogu oraz elementy ukryte (np. GIT’a)</li>
-                        <li> cd .. - przejście do katalogu wyżej</li>
-                        <li> cd nazwa-katalogu - przejście do katalogu o nazwie nazwa-katalogu</li>
-                        <li> code. - uruchomienie VSC w aktualnym katalogu</li>
-                        <li> pwd - wyświetlenie aktualnej ścieżki</li>
-                        <li> mkdir nazwa-katalogu - stworzenie katalogu o nazwie nazwa-katalogu</li>
-                    </ul>
-                </article>
-                <article class="article__category">
-                    <h4 class="article__subtitle">WTF 13 tygodni Nauki!!</h4>
-                    <ol class="article__description">
-                        <li> Tydzień IV</li>
-                        <li> Tydzień V</li>
-                        <li>Tydzień VI</li>
-                        <li>Tydzień VII</li>
-                        <li> Tydzień VIII</li>
-                        <li> Tydzień IX</li>
-                        <li> Tydzień X</li>
-                        <li> Tydzień XI</li>
-                        <li> Tydzień XII</li>
-                        <li> Tydzień XIII</li>
-                    </ol>
-                </article>
-            </section>
-        </div>
-        <footer class="footer">
-            strona Adriany Capińskiej postała w celach edukacyjnych do jej własnego użytku.
-            <a class="footer__link" href="#top">Wróć na górę strony</a>
-        </footer>
-        <script src=main.js></script>
+                        <h4 class="article__subtitle">Podsumowanie:</h4>
+                        <ul class="article__description">
+                            <li>html class= “name”=css.name</li>
+                            <li>html id=”name”=css#name</li>
+                            <li>stylujemy po klasach(bez zagnieżdżeń)</li>
+                            <li>nazywamy klasy po angielsku, zgodnie z przeznaczeniem</li>
+                            <li> tworzymy klasy nawet jeśli mamy jeden element danego typu</li>
+                            <li> specyficzność może dać popalić</li>
+                            <li> nie używamy !important i stylów inline’owych</li>
+                        </ul>
+                        <h4 class="article__subtitle">JAVA SCRIPT</h4>
+                        <p class="article__description">Odpowiada za interakcje, składa się z:
+                        </p>
+                        <div class="container">wartości </div>
+                        <div class="container">operacje</div>
+                        <div class="container">porównania </div>
+                        <div class="container">literały </div>
+                        <div class="container">zmienne</div>
+                        <div class="container">obiekty </div>
+                        <div class="container">funkcje </div>
+                        <p class="article__description"> <b> Wartości dla JS są tym samym czym liczby dla
+                                matematyki.</b>
+                        </p>
+                        <h4 class="article__subtitle">Terminal:</h4>
+                        <ul class="article__description">
+                            <li>cd/d - wejście na dysk d</li>
+                            <li>cd - przejście do katalogu domowego</li>
+                            <li>ls - wypisanie zawartości katalogu</li>
+                            <li> ls -a - wypisanie zawartości katalogu oraz elementy ukryte (np. GIT’a)</li>
+                            <li> cd .. - przejście do katalogu wyżej</li>
+                            <li> cd nazwa-katalogu - przejście do katalogu o nazwie nazwa-katalogu</li>
+                            <li> code. - uruchomienie VSC w aktualnym katalogu</li>
+                            <li> pwd - wyświetlenie aktualnej ścieżki</li>
+                            <li> mkdir nazwa-katalogu - stworzenie katalogu o nazwie nazwa-katalogu</li>
+                        </ul>
+                    </article>
+                    <article class="article__category">
+                        <h4 class="article__subtitle">WTF 13 tygodni Nauki!!</h4>
+                        <ol class="article__description">
+                            <li> Tydzień IV</li>
+                            <li> Tydzień V</li>
+                            <li>Tydzień VI</li>
+                            <li>Tydzień VII</li>
+                            <li> Tydzień VIII</li>
+                            <li> Tydzień IX</li>
+                            <li> Tydzień X</li>
+                            <li> Tydzień XI</li>
+                            <li> Tydzień XII</li>
+                            <li> Tydzień XIII</li>
+                        </ol>
+                    </article>
+                </section>
+            </div>
+    </div>
+    <footer class="footer">
+        strona Adriany Capińskiej postała w celach edukacyjnych do jej własnego użytku.
+        <a class="footer__link" href="#top">Wróć na górę strony</a>
+    </footer>
+    <script src=main.js></script>
     </main>
 
 </body>
