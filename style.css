@@ -32,8 +32,8 @@ html{
 }
 .body__box{
     position: relative;
-    
 }
+
 .main__background{
     background: rgb(92,88,83);
     background: radial-gradient(circle, rgba(92,88,83,1) 41%, rgba(210,194,171,0.7147233893557423) 86%);
@@ -50,9 +50,9 @@ html{
     display: flex;
     align-items: center;
     padding: 15px;
-    margin left: 50px;
-    margin top: 50px;
-    margin bottom: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .article__category{
@@ -62,19 +62,21 @@ html{
     padding-top: 5px;
     position: relative;
 }
+
 .article__subtitle{
     background: #747274;
     border-radius: 30px;
     padding-left: 30px;
     padding-top: 5px;
-    
 }
+
 .article__description{
     background: #474A48;
     border-radius: 30px;
     padding-left: 30px;
     padding-top: 5px;
 }
+
 .article__description--table{
     background: #474A48;
     border: 3px solid rgb(22, 22, 22, 0.4);
@@ -97,39 +99,28 @@ html{
     width: 400px;
     height: 400px;
     background-color: #FF521B;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin: 20px;
+    padding: 35px 50px;
 }
 
 .article__border{
     width: 300px;
     height: 300px;
     background-color: #FC9E4F;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin: 20px;
+    padding: 30px 50px;
 }
 
 .article__padding{
     width: 200px;
     height: 200px;
     background-color: #EDD382;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin: 20px;
+    padding: 30px 40px;
 }
 
 .article__element{
     width: 100px;
     height: 100px;
     background-color: #F2F3AE;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    padding: 30px 60px;
 }
 
 .section__image{
@@ -151,21 +142,24 @@ html{
     width: 20px;
     height: 20px;
 }
+
 .footer{
     background: #B5AA9D;
-    border-radius: 30px;
-    
+    border-radius: 30px;  
 }
+
 .footer__link{
     color:#ffffff;
     border-radius: 30px;
     width: 20px;
     height: 20px;
 }
+
 .box{
     box-sizing: border-box;
     padding: 5% 20%;    
 }
+
 .container{
     background: #747274;
     display: inline-block;
@@ -187,6 +181,7 @@ html{
     background: #E1CEBF;
     border-radius: 30px;
 }
+
 .sticky{
     position: sticky;
     top: 0;
@@ -206,6 +201,10 @@ html{
     padding: 3px;
 }
 
+.table__td--style{
+    empty-cells: hide;
+    padding: 0px;
+}
 .table__div{
     padding-left: 20px;
     padding-top: 10px;
@@ -216,8 +215,10 @@ html{
     display: flex;
     justify-content: center;
 }
+
 .table__th{
     text-align: left;
     border-spacing: 0;
 }
+
 
